@@ -4,8 +4,6 @@ export CLICOLOR=1
 # Set colors to match iTerm2 Terminal Colors
 export TERM=xterm-256color
 
-alias mu="cd /Volumes/GoogleDrive/Team\ Drives/Product/Dev\ Resources/iOS"
-
 function iosv () {
     agvtool new-marketing-version $1
     git add .
