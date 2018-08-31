@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+installDepend() {
+	if [ $1 = 0000000000000000000000000000000000000000 ]; then
+		old=4b825dc642cb6eb9a060e54bf8d69288fbee4904
+	else
+		old=$1
+	fi
+
+	if [ -f Podfile ] && command -v /usr/local/bin/pod install >/dev/null &&
+		git diff --name-only $old $2 | egrep -q '^Podfile$'
+	then
+		(unset GIT_DIR; exec /usr/local/bin/pod install) | grep -v '^Using ' | grep -v ' is complete'
+		true
+	fi
+}
+
+installDepend "$@"
