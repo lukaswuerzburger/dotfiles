@@ -1,0 +1,18 @@
+App Store
+	Xcode
+	Base
+	Server
+	Linguan
+	HexEdit
+	Pixelmator
+	Rested
+
+Alfred
+iTerm
+Spectacle
+Cocoapods
+Fastlane
+SourceTree
+Zeplin
+PaintCode
+Chrome
