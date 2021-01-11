@@ -6,6 +6,7 @@ function clone () {
 	fi
 	components=(${(s:/:)repo})
 	directoryname="${components[1]}"
+	reponame="${components[2]}"
 	localpath="${HOME}/Developer/${directoryname}"
 	echo "Create directory at: ${localpath}"
 	if ! [ -d "$directoryname" ]; then
@@ -13,5 +14,6 @@ function clone () {
 	fi
 	cd $localpath
 	git clone git@github.com:$repo.git
+	cd $reponame
 	open .
 }

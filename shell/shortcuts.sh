@@ -1,7 +1,11 @@
-cdp() {
+cdp () {
 	cd ~/Developer/
 }
 
-ll() {
+ll () {
 	ls -al
+}
+
+server () {
+	python -m SimpleHTTPServer 8000
 }
