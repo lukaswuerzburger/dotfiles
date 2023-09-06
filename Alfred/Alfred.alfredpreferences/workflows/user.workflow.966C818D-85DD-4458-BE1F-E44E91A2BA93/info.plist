@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>5C761351-2E95-458A-9DC8-B87970C71579</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1989EA25-B0EF-4944-A505-2700E43D7E59</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5CB7BA72-FB50-4334-9599-20B3F229E200</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>779971F4-0220-430B-B5EC-1E1F16D0D9B1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>64138879-62CD-4F7A-A9BD-1B6CA1044DB9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3FF94736-77CC-4C5C-8A01-4652809F5070</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B4BA998A-B3CD-4970-901C-9D82226338E2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>168FE593-82FC-4B9A-A6EB-3F7B770EAF31</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D4BE8750-FDF6-48C6-94CE-A66E8200B9B9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EFC87D37-0B0E-4E0F-9DB5-1AA54E12420A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F5ACE21C-7D32-40CC-97DB-59AE1DBA8C7B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CF2373A1-9399-469C-A88F-4DF016219E1F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FA48762B-DBB5-42A0-9501-1BEC2932310F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CA04DEE5-9872-4A0A-960F-AFA3E68C034B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string></string>
+	<key>description</key>
+	<string>Paste Frequently used Skeletons</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Text Skeletons</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>dod</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Paste Definition of Done</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>5CB7BA72-FB50-4334-9599-20B3F229E200</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>- Acceptance Criteria match [G2]: (/)
+- Automatic/manual tests are ok [G4]: (/)
+- How to test (for PO) [G3]:
+</string>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>779971F4-0220-430B-B5EC-1E1F16D0D9B1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>ussk</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Paste Userstory Skeleton</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D4BE8750-FDF6-48C6-94CE-A66E8200B9B9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>h2. Motivation
+*
+
+h2. Requirements
+* 
+
+h2. Technical Details
+* MissingTechnicalDetails
+*
+
+h2. Stakeholder
+*
+
+h2. Obstacles
+*
+
+h2. Acceptance Criteria
+* (If design task) Technical feedback with a platform specific developer has taken place and questions about the feasibility and/or implementation options have been clarified.
+</string>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>EFC87D37-0B0E-4E0F-9DB5-1AA54E12420A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{
+  "device_applicant": false,
+  "id": 6560,
+  "has_onboarding_completed": true,
+  "user_id": 10433,
+  "settings": {
+    "send_push_on_match": true,
+    "send_push_on_new_jobs": true,
+    "send_push_on_new_match_message": true,
+    "send_email_on_match": true,
+    "send_email_on_new_jobs": true,
+    "send_email_on_new_match_message": true
+  },
+  "search_profile": {
+    "location": {
+      "would_move": true,
+      "latitude": 52.5200066,
+      "longitude": 13.404954,
+      "raw_source": "Berlin, Deutschland",
+      "radius": 50
+    },
+    "experiences": [
+      "with-staff-responsibility",
+      "with-experience",
+      "without-experience"
+    ],
+    "worktypes": [
+      "full-time"
+    ],
+    "career_statutes": [
+      "regular-employment"
+    ],
+    "functions": [
+      "startups",
+      "it"
+    ],
+    "ad_languages": [
+      "de",
+      "en"
+    ],
+    "blacklist": [
+      "PHP",
+      "Ada"
+    ],
+    "whitelist": [
+      "Python"
+    ]
+  },
+  "social_accounts": [
+    "xing",
+    "linkedin"
+  ],
+  "resume": {
+    "basic": {
+      "personal": {
+        "website": "http://johannesreichard.de",
+        "picture": "https://x1.xingassets.com/image/e_3_8_3e6038315_16279370_1/johannes-reichard-foto.original.jpg",
+        "first_name": "Johannes",
+        "last_name": "Reichard",
+        "summary": "",
+        "birth_date": "1988-02-14T00:00:00Z",
+        "birth_place": "Worms",
+        "nationality": "Deutsch"
+      },
+      "contact": {
+        "phone": "",
+        "email": "mail@johannesreichard.de",
+        "address": {
+          "city": "",
+          "state": "",
+          "street": "",
+          "postal_code": "",
+          "country": ""
+        }
+      }
+    },
+    "work": [
+      {
+        "website": "",
+        "end_date": "",
+        "company": "truffls gmbh",
+        "summary": "",
+        "position": "CTO",
+        "start_date": "2014-07-01T00:00:00Z"
+      },
+      {
+        "website": "",
+        "end_date": "2009-03-01T00:00:00Z",
+        "company": "Technische Universität Darmstadt",
+        "summary": "Veranstaltung: Grundlagen der Informatik 1",
+        "position": "Tutor(Studentische Hilfskraft)",
+        "start_date": "2008-10-01T00:00:00Z"
+      }
+    ],
+    "education": [
+      {
+        "end_date": "",
+        "grade": "",
+        "start_date": "2012-06-01T00:00:00Z",
+        "summary": "",
+        "institution": "Technische Universität Darmstadt",
+        "subject": "Master"
+      },
+      {
+        "end_date": "2012-06-01T00:00:00Z",
+        "grade": "",
+        "start_date": "2007-10-01T00:00:00Z",
+        "summary": "Thesis Titel:\r\nDesign of a Low-power Wireless Module in an Activity Sensor",
+        "institution": "Technische Universität Darmstadt",
+        "subject": "Bachelor"
+      }
+    ],
+    "skills": [
+      "Teamfähigkeit",
+      "Flexibilität",
+      "HTML 5"
+    ],
+    "languages": [
+      {
+        "quality": "mother-tongue",
+        "language": "Deutsch"
+      },
+      {
+        "quality": "fluent",
+        "language": "Englisch"
+      }
+    ],
+    "qualifications": [
+      {
+        "description": "many many qualifications"
+      }
+    ],
+    "volunteer": [
+      {
+        "organisation": "Eintagsfliege bei Boing",
+        "position": "volunteer",
+        "website": "http://boing.org",
+        "summary": "summary and so ",
+        "start_date": "2012-06-01T00:00:00Z",
+        "end_date": "2012-06-02T00:00:00Z"
+      }
+    ],
+    "awards": [
+      {
+        "title": "Turing Award",
+        "date": "2012-06-01T00:00:00Z",
+        "awarder": "di uaedfginasedfuigae ",
+        "summary": " duifase uidfages uidafeusga dfuigsaen u"
+      }
+    ],
+    "publications": [
+      {
+        "name": "The Art of Programming",
+        "publisher": "",
+        "release_date": "2012-06-01T00:00:00Z",
+        "website": "https://vflgenbeuvlei.biz",
+        "summary": "ednufg lebdfigle "
+      }
+    ],
+    "interests": [
+      "Linux",
+      "Coding"
+    ]
+  },
+  "portrait_file": {
+    "original": "http://url.to.original.size.picture",
+    "small": "http://url.to.max.150x150.px.small.size.thumbnail"
+  }
+}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>CA04DEE5-9872-4A0A-960F-AFA3E68C034B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>applicant</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Applicant JSON</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>FA48762B-DBB5-42A0-9501-1BEC2932310F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>searchprofile</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Search Profile JSON</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B4BA998A-B3CD-4970-901C-9D82226338E2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>"search_profile": {
+  "location": {
+    "would_move": true,
+    "latitude": 52.5200066,
+    "longitude": 13.404954,
+    "raw_source": "Berlin, Deutschland",
+    "radius": 50
+  },
+  "experiences": [
+    "with-staff-responsibility",
+    "with-experience",
+    "without-experience"
+  ],
+  "worktypes": [
+    "full-time"
+  ],
+  "career_statutes": [
+    "regular-employment"
+  ],
+  "functions": [
+    "startups",
+    "it"
+  ],
+  "ad_languages": [
+    "de",
+    "en"
+  ],
+  "blacklist": [
+    "PHP",
+    "Ada"
+  ],
+  "whitelist": [
+    "Python"
+  ]
+}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>168FE593-82FC-4B9A-A6EB-3F7B770EAF31</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>"resume": {
+  "basic": {
+    "personal": {
+      "website": "http://johannesreichard.de",
+      "picture": "https://x1.xingassets.com/image/3_8_3e6038315_16279370_1/johannes-reichard-foto.original.jpg",
+      "first_name": "Johannes",
+      "last_name": "Reichard",
+      "summary": "",
+      "birth_date": "1988-02-14T00:00:00Z",
+      "birth_place": "Worms",
+      "nationality": "Deutsch"
+    },
+    "contact": {
+      "phone": "",
+      "email": "mail@johannesreichard.de",
+      "address": {
+        "city": "",
+        "state": "",
+        "street": "",
+        "postal_code": "",
+        "country": ""
+      }
+    }
+  },
+  "work": [
+    {
+      "website": "",
+      "end_date": "",
+      "company": "truffls gmbh",
+      "summary": "",
+      "position": "CTO",
+      "start_date": "2014-07-01T00:00:00Z"
+    },
+    {
+      "website": "",
+      "end_date": "2009-03-01T00:00:00Z",
+      "company": "Technische Universität Darmstadt",
+      "summary": "Veranstaltung: Grundlagen der Informatik 1",
+      "position": "Tutor(Studentische Hilfskraft)",
+      "start_date": "2008-10-01T00:00:00Z"
+    }
+  ],
+  "education": [
+    {
+      "end_date": "",
+      "grade": "",
+      "start_date": "2012-06-01T00:00:00Z",
+      "summary": "",
+      "institution": "Technische Universität Darmstadt",
+      "subject": "Master"
+    },
+    {
+      "end_date": "2012-06-01T00:00:00Z",
+      "grade": "",
+      "start_date": "2007-10-01T00:00:00Z",
+      "summary": "Thesis Titel:\r\nDesign of a Low-power Wireless Module in  Activity Sensor",
+      "institution": "Technische Universität Darmstadt",
+      "subject": "Bachelor"
+    }
+  ],
+  "skills": [
+    "Teamfähigkeit",
+    "Flexibilität",
+    "HTML 5"
+  ],
+  "languages": [
+    {
+      "quality": "mother-tongue",
+      "language": "Deutsch"
+    },
+    {
+      "quality": "fluent",
+      "language": "Englisch"
+    }
+  ],
+  "qualifications": [
+    {
+      "description": "many many qualifications"
+    }
+  ],
+  "volunteer": [
+    {
+      "organisation": "Eintagsfliege bei Boing",
+      "position": "volunteer",
+      "website": "http://boing.org",
+      "summary": "summary and so ",
+      "start_date": "2012-06-01T00:00:00Z",
+      "end_date": "2012-06-02T00:00:00Z"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Turing Award",
+      "date": "2012-06-01T00:00:00Z",
+      "awarder": "di uaedfginasedfuigae ",
+      "summary": " duifase uidfages uidafeusga dfuigsaen u"
+    }
+  ],
+  "publications": [
+    {
+      "name": "The Art of Programming",
+      "publisher": "",
+      "release_date": "2012-06-01T00:00:00Z",
+      "website": "https://vflgenbeuvlei.biz",
+      "summary": "ednufg lebdfigle "
+    }
+  ],
+  "interests": [
+    "Linux",
+    "Coding"
+  ]
+}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>CF2373A1-9399-469C-A88F-4DF016219E1F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>resume</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Resume JSON</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>F5ACE21C-7D32-40CC-97DB-59AE1DBA8C7B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>#!/usr/bin/env bash</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>3FF94736-77CC-4C5C-8A01-4652809F5070</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>shebang</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Shebang</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>64138879-62CD-4F7A-A9BD-1B6CA1044DB9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>truffls-stage://job/{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>1989EA25-B0EF-4944-A505-2700E43D7E59</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>deeplink</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Deep Link Stage Job</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>5C761351-2E95-458A-9DC8-B87970C71579</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>168FE593-82FC-4B9A-A6EB-3F7B770EAF31</key>
+		<dict>
+			<key>xpos</key>
+			<integer>400</integer>
+			<key>ypos</key>
+			<integer>410</integer>
+		</dict>
+		<key>1989EA25-B0EF-4944-A505-2700E43D7E59</key>
+		<dict>
+			<key>xpos</key>
+			<integer>400</integer>
+			<key>ypos</key>
+			<integer>770</integer>
+		</dict>
+		<key>3FF94736-77CC-4C5C-8A01-4652809F5070</key>
+		<dict>
+			<key>xpos</key>
+			<integer>400</integer>
+			<key>ypos</key>
+			<integer>650</integer>
+		</dict>
+		<key>5C761351-2E95-458A-9DC8-B87970C71579</key>
+		<dict>
+			<key>xpos</key>
+			<integer>150</integer>
+			<key>ypos</key>
+			<integer>770</integer>
+		</dict>
+		<key>5CB7BA72-FB50-4334-9599-20B3F229E200</key>
+		<dict>
+			<key>xpos</key>
+			<integer>150</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>64138879-62CD-4F7A-A9BD-1B6CA1044DB9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>150</integer>
+			<key>ypos</key>
+			<integer>650</integer>
+		</dict>
+		<key>779971F4-0220-430B-B5EC-1E1F16D0D9B1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>400</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>B4BA998A-B3CD-4970-901C-9D82226338E2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>150</integer>
+			<key>ypos</key>
+			<integer>410</integer>
+		</dict>
+		<key>CA04DEE5-9872-4A0A-960F-AFA3E68C034B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>400</integer>
+			<key>ypos</key>
+			<integer>290</integer>
+		</dict>
+		<key>CF2373A1-9399-469C-A88F-4DF016219E1F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>400</integer>
+			<key>ypos</key>
+			<integer>530</integer>
+		</dict>
+		<key>D4BE8750-FDF6-48C6-94CE-A66E8200B9B9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>150</integer>
+			<key>ypos</key>
+			<integer>170</integer>
+		</dict>
+		<key>EFC87D37-0B0E-4E0F-9DB5-1AA54E12420A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>400</integer>
+			<key>ypos</key>
+			<integer>170</integer>
+		</dict>
+		<key>F5ACE21C-7D32-40CC-97DB-59AE1DBA8C7B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>150</integer>
+			<key>ypos</key>
+			<integer>530</integer>
+		</dict>
+		<key>FA48762B-DBB5-42A0-9501-1BEC2932310F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>150</integer>
+			<key>ypos</key>
+			<integer>290</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
